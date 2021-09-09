@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val result = SumUp().getSum(5,6)
+        val result = SumUp(applicationContext).getSum(5,6)
         Log.d("MainActivity", "sum result is  = $result")
     }
 }
