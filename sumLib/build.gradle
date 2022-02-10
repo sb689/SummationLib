@@ -4,14 +4,8 @@ plugins {
     id 'maven-publish'
 }
 
-repositories {
-    mavenCentral()
-    google()
-    maven { url "https://jitpack.io" }
-}
-
 group = 'io.github.sb689'
-version = '1.0.4'
+version = '1.0.5'
 
 android {
     compileSdk 30
@@ -19,8 +13,6 @@ android {
     defaultConfig {
         minSdk 23
         targetSdk 30
-        versionCode 1
-        versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -61,7 +53,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'io.github.sb689'
                 artifactId = 'summationlib'
-                version = '1.0.4'
+                version = '1.0.5'
             }
         }
     }

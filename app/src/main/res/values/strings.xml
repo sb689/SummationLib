@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SummationLib</string>
+    <string name="main_txt">this is client flavor</string>
 </resources>
