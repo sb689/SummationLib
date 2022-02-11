@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/pumpkinFragment"
+        android:icon="@drawable/ic_face_24px"
+        android:title="@string/ghost_pumpkin" />
+    <item
+        android:id="@+id/witchFragment"
+        android:icon="@drawable/ic_face_24px"
+        android:title="@string/ghost_witch" />
+    <item
+        android:id="@+id/zombieFragment"
+        android:icon="@drawable/ic_face_24px"
+        android:title="@string/ghost_zombie" />
+    <item
+        android:id="@+id/ghostFragment"
+        android:icon="@drawable/ic_face_24px"
+        android:title="@string/ghost_floating" />
+    <item
+        android:id="@+id/skullFragment"
+        android:icon="@drawable/ic_face_24px"
+        android:title="@string/ghost_burning_skull" />
+    <item
+        android:id="@+id/aboutFragment2"
+        android:icon="@drawable/ic_face_24px"
+        android:title="@string/about" />
+</menu>

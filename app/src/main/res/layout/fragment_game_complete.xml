@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <data>
+        <variable
+            name="game_stat"
+            type="io.github.sb689.summationlib.GameCompleteFragment" />
+    </data>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameCompleteFragment"
+    android:background="@drawable/game_complete"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/scrim"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/tv_game_result"
+        style="@style/TextAppearance.AppCompat.Display3"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@{game_stat.gameStat}"
+        android:textColor="@color/game_text_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.445"
+        tools:text="Game Won" />
+
+    <Button
+        android:id="@+id/btn_restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        tools:text="Button"
+        android:text="@{game_stat.btnText}"
+        app:layout_constraintEnd_toEndOf="@+id/tv_game_result"
+        app:layout_constraintStart_toStartOf="@+id/tv_game_result"
+        app:layout_constraintTop_toBottomOf="@+id/tv_game_result" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

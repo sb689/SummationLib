@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_text_size">15sp</dimen>
+    <dimen name="qs_text_size">20sp</dimen>
+    <dimen name="ans_opt_text_size">18sp</dimen>
+    <dimen name="ans_opt_margin_top">16dp</dimen>
+    <dimen name="detail_story_text_size">18sp</dimen>
+    <dimen name="detail_margin_start">16dp</dimen>
+    <dimen name="detail_height">300dp</dimen>
+    <dimen name="detail_margin_bottom">32dp</dimen>
+
+</resources>

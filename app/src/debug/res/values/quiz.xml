@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="qs1">
+        <item>Why People dress up as demon on Halloween?</item>
+        <item>To ward off the evil spirits</item>
+        <item>To have fun</item>
+        <item>To educate children</item>
+    </array>
+
+    <array name="qs2">
+        <item>What is the real meaning of the word "Witch"?</item>
+        <item>Wise woman</item>
+        <item>A lady who performs black magic</item>
+        <item>A lady who lives in the forest</item>
+    </array>
+
+    <array name="qs3">
+        <item>Where did Tricks for treats originate?</item>
+        <item>Europe</item>
+        <item>America</item>
+        <item>Asia</item>
+    </array>
+
+
+    <array name="qs4">
+        <item>What is the most favoured treat for Halloween?</item>
+        <item>Chocolate</item>
+        <item>Gum</item>
+        <item>Candy</item>
+    </array>
+
+    <array name="qs5">
+        <item>People of Ireland and Scotland carve ___ during Halloween-</item>
+        <item>Turnip</item>
+        <item>Pumpkin</item>
+        <item>Watermelon</item>
+    </array>
+
+    <array name="qs6">
+        <item>Mexico celebrates this event instead of Halloween -</item>
+        <item>Day of the dead</item>
+        <item>The spirit</item>
+        <item>The ghost night</item>
+    </array>
+
+
+
+</resources>
