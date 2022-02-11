@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'io.github.sb689'
-version = '1.0.7'
+version = '1.0.9'
 
 android {
     compileSdk 30
@@ -53,7 +53,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'io.github.sb689'
                 artifactId = 'summationlib'
-                version = '1.0.7'
+                version = '1.0.9'
             }
         }
     }
